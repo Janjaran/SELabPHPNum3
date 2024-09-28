@@ -14,8 +14,11 @@ p {
 
 .receipt-details {
     font-weight: bold;
+    font-style: italic;
     font-size: 32px;
+    margin-bottom: 20px;
 }
+
 </style>
 <body>
     <p>RECEIPT</p>
@@ -38,7 +41,7 @@ p {
     echo "You Paid: " . $cash . "<br>";
     echo "Change: " . $change . "<br>";
     date_default_timezone_set('Asia/Manila');
-    echo "Date and Time: " . date("Y-m-d h:ia");
+    echo date("m/d/y h:ia");
     ?>
     </div>
 </body>
