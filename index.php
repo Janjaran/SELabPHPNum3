@@ -6,12 +6,12 @@
     <title>Menu</title>
     <style>
         table {
-            width: 30%;
-            height: 150px;
-            font-size: 14px;
+            width: 40%;
+            height: 180px;
+            font-size: 18px;
         }
         th, td {
-            border: 2px solid black;
+            border: 1.5px solid black;
         }
     </style>
 </head>
